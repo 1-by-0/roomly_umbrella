@@ -16,3 +16,14 @@ import Config
 #       format: "$date $time [$level] $metadata$message\n",
 #       metadata: [:user_id]
 #
+
+# config :roomly_core, RoomlyCore.Repo,
+#   database: "roomly_code_dev",
+#   username: "postgres",
+#   password: "postgres",
+#   hostname: "localhost",
+#   show_sensitive_data_on_connection_error: true,
+#   pool_size: 10
+
+# config :roomly_core,
+#   ecto_repos: [RoomlyCore.Repo]
